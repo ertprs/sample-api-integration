@@ -1,14 +1,18 @@
 Sirena example API Integration for Node JS
 ==========
 
-## Before start
+This app is a basic implementation in Node JS for an integration with the Sirena API. 
 
-This example is really simple, and the intention is to give a quick kick off for developers that want to integrate with the Sirena API with a Node JS app. 
+**Note:** This example is really simple, and the intention is to give a quick kick off for developers that want to integrate with the Sirena API with a Node JS app. 
 
 
 ## Getting started
 
-1) The first step is cloning this repository in your computer:
+Before starting, it's necessary to set up the 
+
+#### 1) Clone the repository
+
+The first step is cloning this repository in your computer:
 
 In a terminal:
 ```shell
@@ -16,7 +20,9 @@ $ git clone git@github.com:rodati/api-integration.git myIntegrationApp
 ```
 
 
-2) After cloning the repository, you need to create your own config file:
+#### 2) Create config file
+
+After cloning the repository, you need to prepare and add your own config file:
 
 As this example is prepared to work with a config file that it's not included in the repository. you need to create a new file called `config.js` in the root folder, and add the next content in it: 
 
@@ -32,13 +38,18 @@ module.exports = {
 > **WARNING!** 
 > Make sure you don't share your Sirena API Key with anybody. The API Key is instransferible and it's asociated directly with the person that requested a new API integration.
 
-3) Once you have created the `config.js` file, you must install the app dependencies. To do this, simply call this method in your terminal
+
+#### 3) Install dependencies
+
+Once you have created the `config.js` file, you must install the app dependencies. To do this, simply call this method in your terminal
 
 ```shell
 $ npm install
 ```
 
-4) You're all set, when you want to start your app, just call the `node .` command, like this: 
+#### 4) Start the app
+
+You're all set, when you want to start your app, just call the `node .` command, like this: 
 
 ```shell
 $ node .
@@ -98,7 +109,7 @@ function postInit(app, api) {
 
 ## Special helpers 
 
-This section is under development
+This section is under development...
 
 
 
