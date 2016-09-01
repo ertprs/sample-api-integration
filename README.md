@@ -94,7 +94,7 @@ function postInit(app, api) {
     api
         .getActiveSubscriptions()
         .then(function(response) {
-            console.log('API Response:', response);
+            console.log('API Response:', response.body);
         }, function(rejectedReason) {
             console.log('Rejected reason:', rejectedReason.body);
         })

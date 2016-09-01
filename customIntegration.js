@@ -38,7 +38,7 @@ function preInit(app, api) {
  *	  		api
  *	  			.getActiveSubscriptions()
  *		   		.then(function(response) {
- *			    	console.log('API Response:', response);
+ *			    	console.log('API Response:', response.body);
  *		      	}, function(rejectedReason) {
  *			      	console.log('Rejected reason:', reason.body);
  *		        })
