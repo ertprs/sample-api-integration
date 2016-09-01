@@ -30,7 +30,7 @@ if (integration.preInit && typeof integration.preInit === 'function') {
 /**
  * Start the Node JS App
  */
-app.listen(Number(process.env.PORT) || config.port, function() {
+app.listen(Number(process.env.PORT) || config.port || 3000, function() {
 	console.log(
 		'=================================\n' +
 		'  -- SIRENA API Version: 1.0 -- \n' +
