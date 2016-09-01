@@ -35,6 +35,7 @@ module.exports = {
 
 ```
 
+
 > **WARNING!** 
 > Make sure you don't share your Sirena API Key with anybody. The API Key is instransferible and it's asociated directly with the person that requested a new API integration.
 
