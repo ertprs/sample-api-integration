@@ -1,14 +1,14 @@
 /**
  * Load Settings
  */
-var config = require('./_config');
+var config = require('../config');
 
 /**
  * Load Dependencies
  */
 var express = require('express');
 var app = express();
-var integration = require('./customIntegration');
+var integration = require('../customIntegration');
 
 /**
  * Initialize the Sirena Integration Module

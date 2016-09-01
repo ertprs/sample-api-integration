@@ -2,7 +2,7 @@
   "name": "api-integration",
   "version": "1.0.0",
   "description": "Simple integration with Sirena API",
-  "main": "server.js",
+  "main": "server/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
