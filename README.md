@@ -96,7 +96,7 @@ function postInit(app, api) {
         .then(function(response) {
             console.log('API Response:', response);
         }, function(rejectedReason) {
-            console.log('Rejected reason:', reason.body);
+            console.log('Rejected reason:', rejectedReason.body);
         })
         .catch(function(error) {
             // Handle any error from all above steps 
