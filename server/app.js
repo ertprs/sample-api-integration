@@ -33,8 +33,9 @@ if (integration.preInit && typeof integration.preInit === 'function') {
 app.listen(Number(process.env.PORT) || config.port, function() {
 	console.log(
 		'=================================\n' +
-		'App    : Sirena API Integration\n' +
-		'Port   : ' + config.port + '\n' +
+		'  -- SIRENA API Version: 1.0 -- \n' +
+		'App   	: Sirena API Integration\n' +
+		'Port  	: ' + config.port + '\n' +
 		'=================================\n');
 
 	/**
